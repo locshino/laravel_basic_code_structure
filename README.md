@@ -128,9 +128,9 @@ Việc load các file route con này được cấu hình trong app/Providers/Ro
    Lệnh này sẽ tạo các bảng cần thiết trong database và điền dữ liệu ban đầu (bao gồm Roles, Permissions, người dùng test, thể loại, sản phẩm).  
    php artisan migrate:fresh \--seed
 
-   * Tài khoản Admin test: admin@example.com / password  
-   * Tài khoản Manager test: manager@example.com / password  
-   * Tài khoản User test: user@example.com / password  
+   * Tài khoản Admin test: <admin@example.com> / password  
+   * Tài khoản Manager test: <manager@example.com> / password  
+   * Tài khoản User test: <user@example.com> / password  
 8. Chạy Storage Link:  
    Để hiển thị ảnh sản phẩm, bạn cần tạo symbolic link từ public/storage đến storage/app/public.  
    php artisan storage:link
@@ -144,7 +144,7 @@ Việc load các file route con này được cấu hình trong app/Providers/Ro
     php artisan serve
 
 11. Truy cập ứng dụng:  
-    Mở trình duyệt và truy cập URL hiển thị bởi php artisan serve (thường là http://127.0.0.1:8000).
+    Mở trình duyệt và truy cập URL hiển thị bởi php artisan serve (thường là <http://127.0.0.1:8000>).
 
 ## **Các khái niệm chính được minh họa**
 
